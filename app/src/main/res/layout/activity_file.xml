@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FileActivity"
+    android:padding="10dp"
+    >
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:text="请输入数据..."
+        android:id="@+id/et1"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_save"
+        android:text="保存"
+        android:textSize="25sp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_show"
+        android:text="显示"
+        android:textSize="25sp"
+        android:layout_marginTop="20dp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/tv1"
+        android:textSize="45sp"
+        android:background="#BDBDBB"
+        />
+</LinearLayout>
