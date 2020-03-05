@@ -51,15 +51,12 @@ public class SqliteActivity extends AppCompatActivity {
             public void onClick(View v) {
                 String ID=editText.getText().toString().trim();
                 int id=Integer.parseInt(ID);
-                UserDAO dao=new UserDAO(SqliteActivity.this);
                 dao.deleteData(id);
             }
         });
         btn_select.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String ID=editText.getText().toString().trim();
-                UserDAO dao=new UserDAO(SqliteActivity.this);
                 dao.selectData(textView);
             }
         });
